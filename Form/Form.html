@@ -1,0 +1,149 @@
+
+<html>
+    <head>
+        <script type="text/javascript">
+            function my_func(){
+                var temp1=document.myForm.fname.value;
+                if(temp1==""){
+                    alert("Please Enter First Name");
+                    return false;
+                }
+                var temp2=document.myForm.lname.value;
+                if(temp2==""){
+                    alert("Please Enter Last Name");
+                    return false;
+                }
+                var temp3=document.myForm.from.value;
+                if(temp3==""){
+                    alert("Please Enter the Start Railway Station");
+                    return false;
+                }
+                 var temp4=document.myForm.to.value;
+                if(temp4==""){
+                    alert("Please Enter End Point of your Journey");
+                    return false;
+                }
+                var temp5=document.myForm.tickets.value;
+                if(temp5==""){
+                    alert("Please Enter Number of Tickets");
+                    return false;
+                }
+                 var temp6=document.myForm.t.value;
+                if(temp6==""){
+                    alert("Please Enter The Train Name");
+                    return false;
+                }
+                 var temp7=document.myForm.telephone.value;
+                if(temp7==""){
+                    alert("Please Enter the Telephone Number");
+                    return false;
+                }
+                 var temp8=document.myForm.account.value;
+                if(temp8==""){
+                    alert("Please Enter your Account Number");
+                    return false;
+                }
+                else
+                    alert("You Successfully Reserve Your  Tickets");
+            }
+        </script>
+        
+               
+        <title>Reserve a Main Line Train</title>
+    </head>
+    <body bgcolor="#fff2e6">
+       
+        <table>
+            <tr>
+                <td><img src="images.jpg" width="447">
+                </td>
+                <td><img src="images.jpg" width="447">
+                </td>
+                <td><img src="images.jpg" width="447">
+                </td>
+                
+            </tr>
+        </table>
+        <form name="myForm" id="myForm" onsubmit="return my_func()" method="post">
+            <h1 align="center"><b><u>Form for Reserve Train Tickets</u></b></h1>
+            <table border="0" align="center">
+                <tr>
+                    <td height="50px"> First Name :</td> <td height="50px"><input type="text" id="fname" placeholder="First Name"></td>
+                    <td width="105px"></td><td width="105px"> </td>
+                    <td height="50px"> Last Name :</td> <td height="50px"><input type="text" id="lname" placeholder="Last Name"></td></tr>
+                <tr>
+                    <td height="50px">From (Start Railway station) :</td> <td height="50px"><input type="text" id="from" placeholder="From"></td>
+                <td width="105px"></td>
+                    <td width="105px"></td>
+                    <td height="50px"> To (End point) : </td><td height="50px"><input type="text" id="to" placeholder="To"></td>
+                   </tr> 
+                <tr>
+                    <td height="50px">How many tickets do you want?</td><td height="50px"> <input type="number" id="tickets" placeholder="00"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Train Name :
+                    </td>
+                    <td>
+                    <input type="radio" value="Podi Menike" name="train" id="t" checked>Podi Menike<br>
+                    <input type="radio" value="Udarata Menike" name="train" id="t">Udarata Menike<br>
+                    <input type="radio" value="Night Mail" name="train" id="t">Night Mail<br>
+                    <input type="radio" value="Express (A)" name="train" id="t">Express (A)<br>
+                    <input type="radio" value="Express (B)" name="train" id="t">Express (B)<br>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td height="50px">Telephone Number :
+                    </td>
+                    <td><input type="tel" id="telephone"></td>
+                </tr>
+                <tr>
+                    <td><h3><u>Payments</u></h3></td> 
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bank Name : </td>
+                    
+                    <td><select name="bank">
+                        <option value="People" selected>People's Bank</option>
+                        <option value="BOC">BOC</option>
+                        <option value="Commercial Bank">Commercial Bankss</option>
+                        <option value="DFCC Bank">DFCC Bank</option>
+                        <option value="Hatton National Bank">Hatton National Bank</option>
+                        <option value="Pan Asia Bank">Pan Asia Bank</option>
+                        <option value="Sampath Bank">Sampath Bank</option>
+                         <option value="Seylan Bank">Seylan Bank</option>
+                        </select>
+                        </td>
+        
+                </tr>
+                <tr>
+                    <td>Account Number : </td>
+                    <td><input type="text" id="account"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                <td></td>
+                </tr>
+                
+                <td></td>
+                <td></td>
+                <tr><td></td>
+                    <td><button>Submit</button>
+                    </td>   
+                    <td><button>Cancel</button></td>
+                    
+            
+                </tr>
+            </table><br>
+            
+        </form>
+    
+    
+    </body>
+</html>

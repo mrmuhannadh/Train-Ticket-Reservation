@@ -1,0 +1,43 @@
+<html>
+<head><title>Yal-devi Express</title>
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+</head>
+<body bgcolor="FCFFE7">
+    <center>
+        <h1>Yal-Devi Express</h1>
+    </center>
+    <img src="2.jpg" id="m1" height="350px" /width="100%"/>
+    <script>
+        x=["1.jpg","3.jpg"];
+
+        slide=document.getElementById("m1");
+        count=0;
+
+        function forward()
+        {
+            count=count+1;
+            if(count<=x.length)
+            {
+                if(count==x.length)
+                    {
+                        count=0;
+                    }
+                slide.src=x[count];
+            }
+            console.log(count);
+        }
+
+        setInterval(forward,3000);
+    </script>
+    <h3>About</h3>
+        <p>
+        Yal Devi (Tamil: யாழ் தேவி; Sinhala: යාල් දේවී) is a major express train in Sri Lanka.Operated by Sri Lanka Railways, the Yal Devi connects Colombo, the nation's commercial hub, with the northern cities of Jaffna and Kankesanturai. From 1990 up to 2015, the service had to terminate at intermediate stations, due to the Sri Lankan civil war. The Northern Line was rebuilt and returned to Jaffna Railway Station by October 2014 and Kankesanturai by January 2015.</p>
+        The Yal Devi offers Four classes of travel
+        <ul>
+            <li>1<sup>st</sup>Class observation saloon</li>
+            <li>1<sup>st</sup>Class</li>
+            <li>2<sup>nd</sup>Class</li>
+            <li>3<sup>rd</sup>Class</li>
+    </ul>
+</body>
+</html>

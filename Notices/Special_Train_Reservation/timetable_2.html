@@ -1,0 +1,490 @@
+<html>
+    <head>
+         <style>  
+            .button{
+                background-color: cyan;
+                border: 2px solid red ;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            <link rel="stylesheet" type="text/css" href="button.css">
+             #main{
+                  width: auto;
+                background-color: white;
+                
+                height: auto;
+             }
+              #four{
+                
+                background-color: white;
+                    width: auto;
+            }
+             #three{
+               background-color: whitesmoke;
+                width: auto;
+                height: 250px;
+            }
+             #five{
+                 background-color: whitesmoke;
+                width: auto;
+                height: 250px;
+             }
+        </style>
+    </head>
+    <body>
+        <img src="2.jpg" id="m1" height="350px" /width="100%"/>
+    <script>
+        
+        x=["1.jpg","3.jpg"];
+
+        slide=document.getElementById("m1");
+        count=0;
+
+        function forward()
+        {
+            count=count+1;
+            if(count<=x.length)
+            {
+                if(count==x.length)
+                    {
+                        count=0;
+                    }
+                slide.src=x[count];
+            }
+            console.log(count);
+        }
+
+        setInterval(forward,3000);
+    </script>
+<div id="four">
+     <style>
+                   marquee{
+                       width: 100%;
+                       padding: 10px 0;
+                       background-color: chartreuse;
+                       font-size: 30px;
+                   }
+            </style>
+                         <marquee direction="scroll"><b> Special Train Reservation</b></marquee><br><br>
+                        
+                          <table cellspacing="0" cellpadding="0" border="1" align="center">
+                <tr>
+                    <th height="56" align="center"><h1><i>Intercity Express Services(ICE)-Island Wide</i></h1></th>
+                       </tr>
+                            
+                            <tr>
+       
+                       <tr>
+                           <td align="left" align="top" style="background-repeat: repeat-y;padding-left: 15px;padding-right: 10px;"><table cellspacing=6 width="900" border="0" cellpaddding="2">
+                               <tbody>
+                                   <tr>
+                                       
+        <th>Train Name</th>
+		<th>From</th>
+		<th>Departure</th>
+		<th>To</th>
+        <th>Arrivall</th> 
+                        </tr>
+                                   <tr>
+        <td>Intercity Express</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">11:50</td>
+		<td align="center">Vavuniya</td>
+		<td align="center">19:00</td>
+                                     </tr>
+                       
+                          <tr>
+		<td>Intercity Express</td>
+		<td align="center">Vavuniya</td>
+		<td align="center">05:55</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">03:00</td>
+		</tr>
+                                <tr>
+		<td>Intercity Express</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">12:50</td>
+		<td align="center">Kandy</td>
+		<td align="center">06:30</td>
+
+		</tr>
+		                <tr>
+		<td>Intercity Express</td>
+		<td align="center">Kandy</td>
+		<td align="center">09:45</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">19:45</td>
+
+		</tr>
+		                <tr>
+		<td>Intercity Express</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">08:45</td>
+		<td align="center">Kandy</td>
+		<td align="center">01:40</td>
+
+		</tr>
+		                <tr>
+		<td>Intercity Express</td>
+		<td align="center">Kandy</td>
+		<td align="center">20:00</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">05:10</td>
+
+		</tr>
+		                <tr>
+		<td>Intercity Express</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">14:00</td>
+		<td align="center">Batticalo</td>
+		<td align="center">03:15</td>
+
+		</tr>
+		                <tr>
+		<td>Intercity Express</td>
+		<td align="center">Batticalo</td>
+		<td align="center">10:50</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">15:56</td>
+
+		</tr>
+		                <tr>
+		<td>Uthaya Devi (ICE)</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">10:35</td>
+		<td align="center">Batticalo</td>
+		<td align="center">13:52</td>
+
+		</tr>
+		                <tr>
+		<td>Uthaya Devi (ICE)</td>
+		<td align="center">Batticalo</td>
+		<td align="center">03:15</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">09:55</td>
+
+		</tr>
+		                <tr>
+		<td>Yal Devi (ICE)</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">15:30</td>
+		<td align="center">Vavuniya</td>
+		<td align="center">18:55</td>
+
+		</tr>
+		                <tr>
+		<td>Yal Devi (ICE)</td>
+		<td align="center">vavuniya</td>
+		<td align="center">10:25</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">13:40</td>
+
+		</tr>
+                                   <tr>
+                                       <td height="40px">  </td>
+                                        <td height="40px"> </td>
+                                        <td height="40px" >   </td >
+                                       <td height="40px" > </td>
+                                        <td height="40px"> </td>
+                                   </tr>
+                                   <tr >
+                                       
+                                       <td></td>
+                                        <td colspan="5"><button onclick="window.location.href='reserve-main-line.html';" id="main-line" class="button" >Reserve Intercity Express Service Train Tickets</button></td>
+                                       
+                                    
+                                   </tr>
+		
+                   </table>       
+                           </td>
+            </table><br><br><hr> <br>
+                        
+                           <table cellspacing="0" cellpadding="0" border="1" align="center">
+                <tr>
+                    <th height="56" align="center"><h1><i>Costal Line</i></h1></th>
+                       </tr>
+                            
+                            <tr>
+       
+                       <tr>
+                           <td align="left" align="top" style="background-repeat: repeat-y;padding-left: 15px;padding-right: 10px;"><table cellspacing=6 width="900" border="0" cellpaddding="2">
+                               <tbody>
+                                   <tr>
+                                       
+        <th>Train Name</th>
+		<th>From</th>
+		<th>Departure</th>
+		<th>To</th>
+        <th>Arrivall</th> 
+                        </tr>
+                                   
+                                                   <tr>
+		<td align="center">Express (B)</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">08:35</td>
+
+		<td align="center">Matara</td>
+		<td align="center">12:27</td>
+		</tr>
+		                <tr>
+		<td align="center">Express (B)</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">06:55</td>
+
+		<td align="center">Matara</td>
+		<td align="center">11:17</td>
+		</tr>
+		                <tr>
+		<td align="center">Express (B)</td>
+		<td align="center">Matara</td>
+		<td align="center">14:05</td>
+
+		<td align="center">Colombo Fort</td>
+		<td align="center">18:45</td>
+		</tr>
+		                <tr>
+		<td align="center">Galu Kumari</td>
+		<td align="center">Maradana</td>
+		<td align="center">13:40</td>
+
+		<td align="center">Matara</td>
+		<td align="center">18:25</td>
+		</tr>
+		                <tr>
+		<td align="center">Galu Kumari</td>
+		<td align="center">Matara</td>
+		<td align="center">05:50</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">10:05</td>
+		</tr>
+		                <tr>
+		<td align="center">Ruhunu Kumari</td>
+		<td align="center">Maradana</td>
+		<td align="center">15:40</td>
+
+		<td align="center">Matara</td>
+		<td align="center">19:15</td>
+		</tr>
+		                <tr>
+		<td align="center">Ruhunu Kumari</td>
+		<td align="center">Matara</td>
+		<td 	align="center">05:20</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">09:05</td>
+		</tr>
+		                <tr>
+		<td align="center">Samudra Devi</td>
+		<td align="center">Maradana</td>
+		<td align="center">17:20</td>
+
+		<td align="center">Galle</td>
+		<td align="center">20:05</td>
+		</tr>
+		                <tr>
+		<td align="center">Samudra Devi</td>
+		<td align="center">Galle</td>
+		<td align="center">05:00</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">08:06</td>
+		</tr>
+		                <tr>
+		<td align="center">Sangarika</td>
+		<td align="center">Maradana</td>
+		<td align="center">16:40</td>
+
+		<td align="center">Matara</td>
+		<td align="center">19:13</td>
+		</tr>
+		                <tr>
+		<td align="center">Sangarika</td>
+		<td align="center">Matara</td>
+		<td align="center">04:20</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">08:20</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Maradana</td>
+		<td align="center">17:25</td>
+
+		<td align="center">Galle</td>
+		<td align="center">21:10</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Maradana</td>
+		<td align="center">18:45</td>
+
+		<td align="center">Galle</td>
+		<td align="center">22:55</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Galle</td>
+		<td align="center">03:30</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">07:07</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Galle</td>
+		<td align="center">04:15</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">07:50</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Galle</td>
+		<td align="center">09:00</td>
+
+		<td align="center">Maradana</td>
+		<td align="center">13:35</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (B)</td>
+		<td align="center">Maradana</td>
+		<td align="center">17:50</td>
+
+		<td align="center">Matara</td>
+		<td align="center">22:07</td>
+		</tr>
+                               </tbody>
+                               </table>
+                           </td>
+                               </tr>
+    </table>
+        </div>
+        <div id="three">
+             <h2 align="center">All trains will stop at the following stations:</h2>
+            <table align="center" border="0" >
+                <tr>
+                    <td>
+                    <ul>
+                        <li><strong>Alutgama</strong></li>
+                        <li><strong>Kosgoda</strong></li>
+                        <li><strong>Balapitiya</strong></li>
+                        <li><strong>Ambalangoda</strong></li>
+                        <li><strong>Hikkaduwa</strong></li>
+                        <li><strong>Galle</strong></li>
+                        </ul>
+                    </td>
+                    <td width="300px">
+                    </td>
+                    <td>
+                        <ul>
+                            <li><strong>Talpe</strong></li><li><strong>Koggala</strong></li><li><strong>Ahangama</strong></li><li><strong>Weligama</strong></li><li><strong>Kamburugamuva</strong></li><li><strong>Matara</strong></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                 <td>
+                    </td>
+                    <td>
+                        <button onclick="window.location.href='reserve-main-line.html';" id="main-line" class="button" >Reserve Intercity Express Service Train Tickets</button>
+                    </td>
+                </tr>
+            </table>
+            <hr><br>
+             <table cellspacing="0" cellpadding="0" border="1" align="center">
+                <tr>
+                    <th height="56" align="center"><h1><i>Northern Line</i></h1></th>
+                       </tr>
+                            
+                            <tr>
+       
+                       <tr>
+                           <td align="left" align="top" style="background-repeat: repeat-y;padding-left: 15px;padding-right: 10px;"><table cellspacing=6 width="900" border="0" cellpaddding="2">
+                               <tbody>
+                                   <tr>
+                                       
+        <th>Train Name</th>
+		<th>From</th>
+		<th>Departure</th>
+		<th>To</th>
+        <th>Arrivall</th> 
+                        </tr>
+                                                   <tr>
+		<td align="center">Rajarata Rajini</td>
+		<td align="center">Matara</td>
+		<td align="center">09:30</td>
+		<td align="center">Colombo Fort</td>
+
+		<td align="center">13:20</td>
+		</tr>
+		                <tr>
+		<td align="center">Rajarata Rajini</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">13:45</td>
+		<td align="center">Vavuniya</td>
+
+		<td align="center">20:15</td>
+		</tr>
+		                <tr>
+		<td align="center">Rajarata Rajini</td>
+		<td align="center">Vavuniya</td>
+		<td align="center">03:15</td>
+		<td align="center">Colombo Fort</td>
+
+		<td align="center">09:55</td>
+		</tr>
+		                <tr>
+		<td align="center">Rajarata Rajini</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">10:30</td>
+		<td align="center">Matara</td>
+
+		<td align="center">14:26</td>
+		</tr>
+		                <tr>
+		<td align="center">Night Mail</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">22:00</td>
+		<td align="center">Vavuniya</td>
+
+		<td align="center">05:05</td>
+		</tr>
+		                <tr>
+		<td align="center">Night Mail</td>
+		<td align="center">Vavuniya</td>
+		<td align="center">22:00</td>
+		<td align="center">Colombo Fort</td>
+
+		<td align="center">04:45</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Colombo Fort</td>
+		<td align="center">08:45</td>
+		<td align="center">Anuradhapura</td>
+
+		<td align="center">14:10</td>
+		</tr>
+		                <tr>
+		<td align="center">Normal (C)</td>
+		<td align="center">Anuradhapura</td>
+		<td align="center">08:40</td>
+		<td align="center">Colombo Fort</td>
+
+		<td align="center">14:00</td>
+		</tr>
+		                <tr>
+                               </tbody>
+                               </table>
+                           </td>
+                 </tr>
+            </table><br>
+        </div>
+        
+    </body>
+</html>
